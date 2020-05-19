@@ -45,7 +45,7 @@
             Click on the Plus button above to add your favorite artist or songs and start listening.
         </TextBlock>
         <ScrollViewer Name="scrollMain" Grid.Row="0" VerticalScrollBarVisibility="Auto"
-                  HorizontalScrollBarVisibility="Disabled" Style="{StaticResource FadeScroller}">
+                  HorizontalScrollBarVisibility="Disabled" Style="{StaticResource FadeScroller}" PanningMode="VerticalOnly">
 
             <ItemsControl Name="StationItems" HorizontalContentAlignment="Stretch">
                 <ItemsControl.ItemTemplate>

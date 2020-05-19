@@ -183,7 +183,7 @@
             <Image Grid.Row="3" Grid.ColumnSpan="3" Source="/Elpis;component/Images/background.png"
                Margin="100" Opacity="0.25"/>
             <ScrollViewer Margin="0,0,0,0" Grid.Row="3" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"
-                    Style="{StaticResource FadeScroller}">
+                    Style="{StaticResource FadeScroller}" PanningMode="VerticalOnly">
                 <ItemsControl Name="lstOldSongs" HorizontalContentAlignment="Stretch">
                 </ItemsControl>
             </ScrollViewer>
